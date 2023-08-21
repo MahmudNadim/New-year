@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+header {
+    background-image: url(/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    text-align: right;
+    float: right;
+}
+
+.header-content {
+    border: 1px solid red;
+    width: 525px;
+    margin: 216px 130px 156px 880px;
+}
+
+.header-title {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    /* width: 525px; */
+}
+
+.header-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    /* width: 520px; */
+    margin: 30px 0;
+    line-height: 26px;
+}
+
+.btn {
+    height: 64px;
+    /* width: 160px; */
+    border-radius: 5px;
+    background-color: #FFF;
+    padding: 21px 25px;
+    border: 0;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* main styles */
+main {
+    width: 950px;
+    margin: 0 auto;
+    margin-bottom: 135px;
+}
+
+/* failures styles */
+.failures-content {
+    display: flex;
+    gap: 24px;
+    /* width: 950px;
+    margin: 0 auto; */
+    border: 1px solid red;
+    align-items: center;
+    padding-top: 135px;
+    margin-bottom: 135px;
+    /* margin-top: 135px; */
+}
+
+.section-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.section-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.check-color {
+    color: #16D887;
+}
+
+.check-box {
+    margin-top: 15px;
+}
+
+/* my plans styles */
+.my-plans {
+    border: 1px solid red;
+    margin-bottom: 135px;
+    /* width: 950px;
+    margin: 0 auto; */
+}
+
+.plans-content {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.plan img {
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%; */
+    width: 50px;
+    height: auto;
+    margin-left: 40%;
+}
+
+.plans-content .section-title {
+    font-size: 30px;
+}
+
+.plan-description {
+    text-align: center;
+}
+/* positive mindset styles */
+.positive-mindset{
+    border: 1px solid rebeccapurple;
+    background-image:  linear-gradient(to left, rgba(76, 90, 167, 0.13), rgba(16, 112, 202, 0.73)),url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.positive-mindset .header-title{
+    font-size: 45px;
+    width: 559px;
+    margin: 59px 616px 24px 64px;
+}
+.positive-mindset .btn{
+    margin-left: 64px;
+    margin-bottom: 59px;
+}
+/* .positive-mindset img{
+    width: 100%;
+} */
